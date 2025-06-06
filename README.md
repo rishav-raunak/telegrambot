@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # Get token from environment variable
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("7203772720:AAHqXXY8pYGieFu356nLbClszUDc1Sq94j8")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Welcome! Send /logo YourName to get a logo.")
